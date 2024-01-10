@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(138, 80, 109);
+}
+
+.quiz {
+  background-color: rgb(233, 216, 224);
+  padding: 10px 50px 40px 50px;
+  color: rgb(255, 255, 255);
+  width: 500px;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+
+  .quiz-question {
+    background-color: rgb(139 109 124);
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 37px;
+    border-radius: 0.5rem;
+
+    #quiz-score {
+      float: inline-start;
+      margin-left: -168px;
+      margin-top: 1px;
+    }
+
+    #miss-letter {
+      width: 57px;
+      font-size: 50px;
+      border: none;
+      color: rgb(138, 80, 109);
+      border-radius: 0.4rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+      float: inline-start;
+      margin-left: 120px;
+      margin-top: 50px;
+    }
+
+    #letter-text {
+      font-size: 50px;
+      margin-right: 150px;
+    }
+  }
+
+  #title {
+    color: rgb(138, 80, 109);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #quiz-submit {
+    width: 115px;
+    background-color: rgb(138, 80, 109);
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    color: #fffcfc;
+    padding: 8px 18px 6px 18px;
+    margin-top: 50px;
+    font-size: 15px;
+    border-radius: 0.3rem;
+    transition: all .25s;
+
+    border-top: 2px solid #fffcfc;
+    border-bottom: 2px solid #ffffff;
+  }
+
+  #quiz-submit:hover {
+    width: 220px;
+    border-radius: 0.3rem;
+    letter-spacing: 15px;
+  }
+}
