@@ -63,7 +63,8 @@ export class Quiz extends React.Component {
     render() {
         return (
             <>
-                <input id="miss-letter" value={this.state.userInput} onChange={this.handleInput} placeholder='__'></input><ArrayView letter={this.state.letter} userinput={this.state.userInput}
+                <input id="miss-letter" value={this.state.userInput} onChange={this.handleInput} placeholder='__'></input>
+                <ArrayView letter={this.state.letter} userinput={this.state.userInput}
                     score={this.state.score} onNextClick={this.handleNext} />
             </>
         );
